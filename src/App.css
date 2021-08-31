@@ -1,13 +1,16 @@
 .App {
   text-align: center;
 }
+.app-menuBar {
+  height: 50px;
+}
 .project-board {
-  border: 1px solid red;
   display: flex;
 }
 .add-list-button {
   height: 50px;
   width: 220px;
+  min-width: 200px;
   margin: 10px;
   font-weight: bold;
   border: none;
