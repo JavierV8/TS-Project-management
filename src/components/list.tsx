@@ -1,4 +1,5 @@
 import React from 'react';
+import ProjectElement from './projectElement';
 import '../styles/listStyle.css';
 
 const List = () => {
@@ -8,8 +9,8 @@ const List = () => {
             <p className="list-header-title">To do</p>
             <button className="list-header-add">+</button>
             </div>
-            <div className="project-element"></div>
-            <div className="project-element"></div>
+            <ProjectElement />
+
         </div>
     )
 }
