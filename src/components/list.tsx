@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectElement from './projectElement';
+import Task from './task';
 import '../styles/listStyle.css';
 
 const List = () => {
@@ -10,7 +11,7 @@ const List = () => {
             <button className="list-header-add">+</button>
             </div>
             <ProjectElement />
-
+<Task />
         </div>
     )
 }

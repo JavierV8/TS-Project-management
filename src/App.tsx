@@ -13,6 +13,7 @@ function App() {
         <List />
         <button className="add-list-button">Add a new list</button>
       </div>
+
     </div>
   );
 }
