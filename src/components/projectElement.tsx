@@ -1,17 +1,20 @@
 import React from 'react';
 import '../styles/projectElementStyle.css';
+import { useData, useDataUpdate } from '../context/conext';
+
 
 const ProjectElement = () => {
+    const data = useData();
+    const updateData = useDataUpdate();
     return (
         <div className="project-element">
-            <p className="task-title">Title of the task that has been created...</p>
+            <p className="task-title" onClick={() => updateData()}>Title of the task that has been created...</p>
             <div className="task-tag-container">
             <span className="task-tag">Web</span>
             <span className="task-tag">Component</span>
             <span className="task-tag">Component</span>
             <span className="task-tag">Component</span>
             </div>
-
         </div>
     )
 }
