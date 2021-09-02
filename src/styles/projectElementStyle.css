@@ -6,20 +6,20 @@
     display: block;
     overflow: none;
 }
-.task-title {
+.element-title {
     padding: 8px;
     margin: 0;
     font-size: 15px;
     cursor: pointer;
 }
-.task-title:hover {
+.element-title:hover {
     text-decoration: underline;
 }
-.task-tag-container {
+.element-tag-container {
     display: flex;
     flex-wrap: wrap;
 }
-.task-tag {
+.element-tag {
     padding: 5px 12px;
     background: red;
     margin: 0;
